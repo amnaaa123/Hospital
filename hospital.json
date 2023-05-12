@@ -1,0 +1,159 @@
+{
+	"patients":[{
+		"Name": "Amna Ali",
+		"Date of Birth": "30-08-1998",
+		"Blood type": "A+",
+		"Weight": 50,
+		"Contact": "0744521254",
+		"Address": {
+			"house": "125",
+			"road": "Hovenden Road",
+			"city": "Canterbury"
+		},
+		"Next of Kin": {
+			"relation": "father",
+			"name": "Abid Ali",
+			"Contact": "0506412008"
+		},
+		"Medical History":[{
+			"history_id":"1685",
+			"date":"12-12-20",
+			"diagnosis":"brittle bones",
+			"medication_id":"1525"
+		}],
+		"Appointments":[{
+			"date":"12-3-23",
+			"time":"20:23",
+			"gp_id":"21",
+			"reason":"pain in left leg"
+		},
+		{
+			"date":"12-3-23",
+			"time":"20:23",
+			"gp_id":"21",
+			"reason":"pain in left leg"
+		}],
+		"medical_test":{
+			"test_id":"6448",
+			"Date":"21-2-23",
+			"Results":"Positive"
+		},
+		"medication_id":"18861",
+		"room_id":"52"
+
+	},
+	{
+		"Name": "Naghma Yasmeen",
+		"Date of Birth": "04-01-1969",
+		"Blood type": "B+",
+		"Weight": 62,
+		"Contact": "0754482247",
+		"Address": {
+			"house": "5",
+			"road": "Tutor Road",
+			"city": "Canterbury"
+		},
+		"Next of Kin": {
+			"relation": "husband",
+			"name": "Abid Ali",
+			"Contact": "0506412008"
+		},
+		"Medical History":[{
+			"history_id":"9244",
+			"date":"8-12-21",
+			"diagnosis":"nose bleed",
+			"medication_id":"894"
+		}],
+		"Appointments":[{
+			"date":"7-12-22",
+			"time":"4:55",
+			"gp_id":"2",
+			"reason":"pain in left leg"
+		}],
+		"medical_test":{
+			"test_id":"4852",
+			"Date":"20-2-23",
+			"Results":"Positive"
+		},
+		"medication_id":"44485",
+		"room_id":"null"
+	}],
+	"doctor":[{
+		"doctor_id":"1",
+		"Name":"Dr Yusra Khan",
+		"Contact":"075648216",
+		"NI_num":"122AD57",
+		"Department_id":"11",
+		"Qualification":"MBBS"
+	},
+	{
+		"doctor_id":"2",
+		"Name":"Dr Abrar ul Hasan",
+		"Contact":"0788462449",
+		"NI_num":"846KQ118",
+		"Department_id":"15",
+		"Qualification":"Specialist"
+	}],
+	"Hosptial":{
+		"hospital_id":"1",
+		"Name":"East Kent Hospital",
+		"Address":"North Holmes Rd",
+		"Departments":[{
+			"Department_id":"11",
+			"Name":"Orthopedic",
+			"Building_num":"5",
+			"Number_of_rooms":38,
+			"Number_of_ employees":21,
+			"room":[{
+				"Room_id":"51",
+				"Department_id":"11",
+				"Availability":"Available",
+				"Type":"single ensuite"
+			}]
+		},
+		{
+			"Department_id":"6",
+			"Name":"Gynaecology",
+			"Building_num":"6",
+			"Number_of_rooms":40,
+			"Number_of_ employees":30,
+			"room":[{
+				"Room_id":"62",
+				"Department_id":"6",
+				"Availability":"Available",
+				"Type":"single ensuite"
+			}]
+		}]
+	},
+	"tests":[{
+		"test_id":"5168",
+		"Name":"Covid-19",
+		"Type":"NAAT",
+		"Cost":"free",
+		"Requirements":"null"
+	},
+	{
+		"test_id":"1258",
+		"Name":"X-ray",
+		"Type":"iodized",
+		"Cost":2.99,
+		"Requirements":"age +12"
+	}],
+	"Medication":[{
+		"medication_id":"1252",
+		"name":"paracetamol",
+		"Dosage":"25 grams",
+		"Duration":"daily for 2 weeks",
+		"Price":"0.99"
+	},
+	{
+		"medication_id":"482",
+		"name":"cough syrup",
+		"Dosage":"5 ml",
+		"Duration":"daily for 2 weeks",
+		"Price":"1.25"
+	}],
+
+}
+
+ 
