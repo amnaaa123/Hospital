@@ -24,7 +24,7 @@
 		"Appointments":[{
 			"date":"12-3-23",
 			"time":"20:23",
-			"gp_id":"21",
+			"doctor_id":"21",
 			"reason":"pain in left leg"
 		},
 		{
